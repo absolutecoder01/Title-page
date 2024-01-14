@@ -1,0 +1,68 @@
+.tytul {
+    color: #374957; /*color of header 1 */
+    padding-top: 3%; /* Padding of h1 */
+    padding-bottom: 10px;
+}
+.bt {
+    color: #374957;
+    border: #374957 solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 10%;
+    width: 170px;
+    height: 50px;
+}
+.bt:hover {
+    color: white;
+    border: white solid 1px;
+    background-color: #374957;
+    transition: 0.5s;
+
+}
+.bt1 {
+    color: #374957;
+    border: #374957 solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 10%;
+    width: 170px;
+    height: 50px;
+}
+.bt1:hover {
+    color: white;
+    border: white solid 1px;
+    background-color: #374957;
+    transition: 0.5s;
+}
+.icon-bar {
+    width: 50%; /* Full-width */
+    background-color: white; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    display: flex;
+    position: right;
+}
+  
+.icon-bar a {
+    float: right; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #374957; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+  
+.icon-bar a:hover {
+    background-color: #374957; /* Add a hover color */
+    color: white;
+    border-radius: 10px;
+}
+video {
+    color: #374957;
+}
